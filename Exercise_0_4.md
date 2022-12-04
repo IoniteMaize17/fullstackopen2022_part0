@@ -3,7 +3,7 @@ sequenceDiagram
 loop
 actor A
 browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
-server->>browser: HTML - Code
+server-->>browser: HTML - Code
 browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
 server-->>browser: main.css
 browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
