@@ -1,8 +1,6 @@
 ```mermaid
 sequenceDiagram
 
-actor A
-
 browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
 server-->>browser: HTML - Code
 browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
